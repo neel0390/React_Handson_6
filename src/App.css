@@ -1,38 +1,129 @@
-.App {
+@import url("https://fonts.googleapis.com/css?family=Franklin Gothic Medium");
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.navitem {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 250px;
+  padding: "5px 0 5px 5px";
+  font-size: 20px;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(23, 23, 120);
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+NavLink:hover {
+  background-color: pink;
+}
+.NavStyle {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+.NavStyle:hover {
+  color: pink;
+}
+table {
+  background-color: white;
+  width: 1300px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+tr {
+  border-bottom: 1px solid #ccc;
+  height: 60px;
+}
+th {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn {
+  width: 250px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.student_header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.detail__container {
+  display: flex;
+  align-items: center;
+  margin-left: 10rem;
+  margin-top: 10rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  fill: none;
+  background: transparent;
+  border: 1px solid grey;
+  font-size: 18px;
+  /* margin-bottom: 40px; */
+  border-radius: 5px;
+  padding: 16px;
+  width: 30rem;
+}
+
+.form__student__details {
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  top: -0.6rem;
+  left: 0.7rem;
+  background-color: transparent;
+  padding: 0;
+}
+
+.mr-20 {
+  margin-right: 7rem;
+}
+
+.input__left {
+  left: 30rem;
+}
+
+.label__left {
+  left: 31rem;
+}
+
+.form_btn_container {
+  position: absolute;
+  top: 32rem;
+  right: 5rem;
+}
+
+.form_btn {
+  padding: 1px 1px;
+  border-radius: 30px;
+  width: 19rem;
+  height: 55px;
+  font-size: 29px;
+  margin-right: 20px;
+}
+
+.cancel_btn_color {
+  background-color: gray;
+}
+
+.update__btn__color {
+  background-color: #d4dfe4;
 }
